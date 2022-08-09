@@ -7,13 +7,10 @@ public class Etudiant {
     private double mod3;
 
     //Le constructeur
-    public  Etudiant (String nom,String prenom,String matricule,double mod1,double mod2 , double mod3){
+    public  Etudiant (String nom,String prenom,String matricule){
         this.nom=nom;
         this.prenom=prenom;
         this.matricule=matricule;
-        this.mod1=mod1;
-        this.mod2=mod2;
-        this.mod3=mod3;
     }
     //Afficher les valeurs des attributs
     public void afficher(){
